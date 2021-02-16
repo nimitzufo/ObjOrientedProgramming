@@ -18,3 +18,5 @@ a = Coordinate(3,4)
 b = Coordinate(0,0)
 
 print(a.distance(b))
+print(b.distance(a))
+print(Coordinate.distance(a,b))
